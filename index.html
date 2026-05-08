@@ -8,79 +8,118 @@
 </head>
 <body>
 
-    <header>
-        <h1>Kevin's Personal Portfolio</h1>
-        <p>IT Support | Web Development | Databases | Cybersecurity</p>
+    <nav>
+        <div class="container nav-container">
+            <h2 class="logo">Kevin TechHub</h2>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Hello, I'm Kevin</h1>
+            <p>
+                IT Support | Web Development | Databases | Cybersecurity
+            </p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
     </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            Welcome to my portfolio. I am developing my skills in IT support,
-            web development, databases, networking, and cybersecurity.
-            This website showcases my academic and personal technology projects.
-        </p>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-
-        <div class="project-card">
-            <h3>Library LMS</h3>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
             <p>
-                A PHP and MySQL web application developed as part of my Diploma of IT studies.
-                The system includes user registration, login, book browsing, borrowing,
-                returning, and admin book management features.
-            </p>
-            <a href="https://github.com/kevin-techhub/library-lms" target="_blank">View Project on GitHub</a>
-        </div>
-
-        <div class="project-card">
-            <h3>Database and SQL Projects</h3>
-            <p>
-                Database design and SQL practice projects, including tables, relationships,
-                queries, and data management tasks.
-            </p>
-        </div>
-
-        <div class="project-card">
-            <h3>Cybersecurity Lab Work</h3>
-            <p>
-                Practical cybersecurity labs covering networking, authentication,
-                access control, traffic analysis, and basic security testing concepts.
-            </p>
-        </div>
-
-        <div class="project-card">
-            <h3>Networking and System Administration</h3>
-            <p>
-                Practice work involving virtual machines, server configuration,
-                networking basics, and troubleshooting.
+                Welcome to my personal portfolio. I am building my skills in IT support,
+                web development, databases, networking, and cybersecurity. This website
+                showcases my academic and personal projects, along with the technical
+                skills I am developing through study and hands-on practice.
             </p>
         </div>
     </section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>MySQL</li>
-            <li>Networking Basics</li>
-            <li>Cybersecurity Fundamentals</li>
-            <li>IT Support</li>
-        </ul>
+    <section id="projects" class="section light-bg">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+                <div class="card">
+                    <h3>Library LMS</h3>
+                    <p>
+                        A PHP and MySQL web application developed as part of my Diploma of IT studies.
+                        It includes user registration, login, book browsing, borrowing, returning,
+                        and admin management features.
+                    </p>
+                    <a href="https://github.com/kevin-techhub/library-lms" target="_blank" class="card-btn">
+                        View Project
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>Database and SQL Projects</h3>
+                    <p>
+                        Academic projects focused on database design, relationships, ERDs,
+                        SQL queries, and data management tasks.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Cybersecurity Lab Work</h3>
+                    <p>
+                        Practical lab work covering authentication, access control,
+                        traffic analysis, networking, and basic security testing concepts.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Networking and System Administration</h3>
+                    <p>
+                        Hands-on work involving virtual machines, server setup,
+                        troubleshooting, networking basics, and system configuration.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>GitHub: kevin-techhub</p>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>Database Design</span>
+                <span>Networking Basics</span>
+                <span>Cybersecurity Fundamentals</span>
+                <span>IT Support</span>
+                <span>Troubleshooting</span>
+                <span>XAMPP</span>
+                <span>GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section light-bg">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can find my work on GitHub:</p>
+            <a href="https://github.com/kevin-techhub" target="_blank" class="btn">
+                Visit My GitHub
+            </a>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Kevin. Personal Portfolio.</p>
+        <div class="container">
+            <p>&copy; 2026 Kevin. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
